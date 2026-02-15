@@ -35,6 +35,8 @@ const App: React.FC = () => {
   const [publicView, setPublicView] = useState<PublicView>('landing');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isPublicMobileMenuOpen, setIsPublicMobileMenuOpen] = useState(false);
+  console.log("ENV CHECK:", import.meta.env.VITE_GEMINI_API_KEY);
+
 
   const { isLoggedIn } = useUserData();
 
