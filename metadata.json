@@ -1,0 +1,7 @@
+{
+  "name": "PLASTIVIZE",
+  "description": "An AI-powered application to help users identify, recycle, and creatively reuse plastic waste. Features include plastic classification from images, a sustainability dashboard, a plastic footprint calculator, and an AI chatbot.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
